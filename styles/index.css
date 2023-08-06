@@ -1,0 +1,91 @@
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar {
+    background: linear-gradient(0deg, #110941 0%, #110941 100%), #110941;
+    mix-blend-mode: darken;
+}
+
+header {
+    background: url(../img/Conference\ 2.jpg) rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-rendering: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 0px solid #000;
+    opacity: 0.85;
+    height: 100vh;
+}
+
+header .navbar .container .nav-items {
+    width: 100%;
+    margin: 2rem auto;
+}
+
+header .navbar .container .nav-items .list-items .list-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-section {
+    margin-top: 8.49rem;
+}
+
+.hero-section .hero-text .meet {
+    color: #FFF;
+    font-size: 1.5375rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.hero-section .hero-text h1 {
+    color: #FFF;
+    font-size: 5.5rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.hero-section .hero-text p {
+    color: #020B5B;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.9375rem;
+}
+
+.hero-section .hero-text .white-txt {
+    color: #FFF;
+}
+
+.hero-section .hero-input .input input[type=text] {
+    width: 22.75rem;
+    height: 3.4375rem;
+    /* flex-shrink: 0; */
+    background: rgba(181, 181, 219, 0.44);
+}
+
+.hero-section .hero-input {
+    margin-top: 8rem;
+}
+
+.hero-section .hero-input .button a {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 0.9375rem; */
+    text-decoration: none;
+}

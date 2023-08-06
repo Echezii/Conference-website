@@ -1,0 +1,65 @@
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar {
+    background: #110941;
+}
+
+header {
+    background: black;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 0px solid #000;
+    opacity: 0.95;
+    /* height: 100vh; */
+}
+
+header .navbar .container .nav-items {
+    width: 100%;
+    margin: 2rem auto;
+}
+
+header .navbar .container .nav-items .list-items .list-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.team-txt .container h2 {
+    color: #FFF;
+    font-size: 2.0375rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.team-txt .container p {
+    color: #FFF;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.team-txt .container p span {
+    color: #05117C;
+}
+
+.guests .container .row .col-3 .name {
+    color: #FFF;
+    font-size: 1.2375rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.guests .container .row .col-3 .title {
+    color: #FFF;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+}

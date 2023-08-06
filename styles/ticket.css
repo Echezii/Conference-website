@@ -1,0 +1,84 @@
+body {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar {
+    background: #110941;
+    /* mix-blend-mode: darken; */
+}
+
+header {
+    background: url(../img/Ticket\ img.jpg) rgba(0, 0, 0, 0.9);
+    /* background: url(../img/Ticket\ img.jpg) lightgray 50%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    shape-rendering: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 0px solid #000;
+    opacity: 0.95;
+    height: 100vh;
+}
+
+header .navbar .container .nav-items {
+    width: 100%;
+    margin: 2rem auto;
+}
+
+header .navbar .container .nav-items .list-items .list-item a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-section {
+    margin-top: 4.14rem;
+}
+
+.hero-section .hero-text h3 {
+    color: #FFF;
+    font-size: 2.0375rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.hero-section .hero-text .ticket-txt {
+    color: #FFF;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.grid-gap {
+    grid-gap: 300px;
+}
+
+.hero-section .hero-form {
+    border-left: 0.225rem solid #020B5B;
+}
+
+.hero-section .hero-form .form-item label {
+    color: #FFF;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hero-section .hero-form .form-item .input-item input[type=text] {
+    width: 20.250rem;
+    height: 2.875rem;
+}
+
+.hero-section .hero-form .form-item select {
+    height: 2.875rem;
+    width: 6.250rem;
+}
